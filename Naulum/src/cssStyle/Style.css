@@ -1,0 +1,29 @@
+
+/*Button Sign Up Style*/
+#btl:hover{
+    -fx-background-color: #7481cf;
+}
+#btl:active{
+    -fx-background-color: green;
+}
+
+#btl{
+	-fx-background-color: #2eb872;
+	-fx-text-fill: #c1f880;    
+}
+
+#loginAnchorPane{
+	 -fx-background-color: #c1f880;
+}
+
+
+
+
+#textForm{
+	
+  -fx-text-fill: #2eb872;
+  -fx-background-color: #a3de83;
+  -fx-prompt-text-fill: #c1f880;
+  
+  
+}

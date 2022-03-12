@@ -11,7 +11,7 @@ import javafx.scene.Scene;
 
 public class Main extends Application {
 	@Override
-	public void start(Stage primaryStage) {
+	public void start(Stage stage) {
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("/fxml/loginMain.fxml"));
 			Scene scene = new Scene(root);
@@ -19,10 +19,12 @@ public class Main extends Application {
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			//this because with the other method it's recommended.
 			
-			String css = this.getClass().getResource("/css/mainStyle.css").toExternalForm();
+			String css = this.getClass().getResource("/cssStyle/Style.css").toExternalForm();
 			scene.getStylesheets().add(css);
-			primaryStage.setScene(scene);
-			primaryStage.show();
+			stage.setScene(scene);
+			stage.show();
+
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
