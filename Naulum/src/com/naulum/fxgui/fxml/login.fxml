@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="loginAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.applicationController">
+<AnchorPane fx:id="loginAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.appController">
    <children>
       <Button fx:id="btl" layoutX="704.0" layoutY="17.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" text="SignUP">
          <font>
@@ -53,14 +53,14 @@
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
       </Text>
-      <ImageView fx:id="ebikeLogin" fitHeight="73.0" fitWidth="92.0" layoutX="235.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="ebikeLogin" fitHeight="81.0" fitWidth="85.0" layoutX="236.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Desktop/ImagesProg3/ebike.png" />
+            <Image url="@../png/ebike.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="energy" fitHeight="35.0" fitWidth="36.0" layoutX="149.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="42.0" fitWidth="33.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../Desktop/ImagesProg3/energy.png" />
+            <Image url="@../png/energy.png" />
          </image>
       </ImageView>
    </children>

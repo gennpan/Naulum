@@ -1,4 +1,4 @@
-package application;
+package com.naulum.fxgui;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -8,7 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.image.ImageView;
 import javafx.util.Duration;
 
-public class applicationController implements Initializable{
+public class appController implements Initializable{
 	
 	
 	

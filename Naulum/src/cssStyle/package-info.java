@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author panic
- *
- */
-package cssStyle;
