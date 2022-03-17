@@ -12,7 +12,7 @@
 	-fx-text-fill: #c1f880;    
 }
 
-#loginAnchorPane{
+#anchor_pane{
 	 -fx-background-color: #c1f880;
 }
 
@@ -24,6 +24,10 @@
   -fx-text-fill: orange;
   -fx-background-color: #a3de83;
   -fx-prompt-text-fill: #c1f880;
-  
-  
+}
+
+
+
+#navTitle{
+	-fx-text-fill: #7481cf;
 }

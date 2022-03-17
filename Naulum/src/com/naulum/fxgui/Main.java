@@ -16,7 +16,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/fxml/login.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/Login.fxml"));
 			Scene scene = new Scene(root);
 			
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
