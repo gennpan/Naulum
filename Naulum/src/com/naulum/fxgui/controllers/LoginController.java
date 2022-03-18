@@ -26,7 +26,7 @@ public class LoginController implements Initializable {
 	@FXML
 	private Scene scene;
 	@FXML
-	private ImageView ebike;
+	private ImageView ebikeFrame;
 	@FXML
 	private Button btl;
 	@FXML
@@ -42,7 +42,7 @@ public class LoginController implements Initializable {
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		//translate
 				TranslateTransition translate = new TranslateTransition();
-				translate.setNode(ebike);
+				translate.setNode(ebikeFrame);
 				translate.setDuration(Duration.millis(1000));
 				translate.setCycleCount(TranslateTransition.INDEFINITE);
 				translate.setByX(250);
@@ -58,5 +58,17 @@ public class LoginController implements Initializable {
 			stage.setScene(scene);
 			stage.show();
 		}
-	}	
+
+	    public void switchToHome(ActionEvent event) throws IOException {
+			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/UserHome.fxml"));
+			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+			scene = new Scene(root);
+			stage.setScene(scene);
+			stage.show();
+	}
+}
+
+
+
+
 

@@ -13,54 +13,54 @@
 
 <!--stylesheets inclusion to save my css -->
 
-<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="800.0" stylesheets="/com/naulum/fxgui/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.controllers.LoginController">
+<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="556.0" styleClass="anchor_pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.controllers.LoginController">
    <children>
-      <Button fx:id="btl" layoutX="704.0" layoutY="17.0" mnemonicParsing="false" onAction="#switchToSignUp" prefHeight="30.0" prefWidth="75.0" text="SignUP">
+      <Button fx:id="btl" layoutX="464.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToSignUp" prefHeight="35.0" prefWidth="78.0" styleClass="btl" stylesheets="@../css/style.css" text="SignUP">
          <font>
             <Font name="Segoe UI Semibold" size="16.0" />
          </font>
       </Button>
-      <TextField fx:id="textForm" layoutX="277.0" layoutY="127.0" prefHeight="11.0" prefWidth="247.0" promptText="Enter your Username">
+      <TextField fx:id="text_form" layoutX="155.0" layoutY="126.0" prefHeight="11.0" prefWidth="247.0" promptText="Enter your Username" styleClass="text_form" stylesheets="@../css/style.css">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <PasswordField fx:id="textForm" layoutX="277.0" layoutY="214.0" prefHeight="32.0" prefWidth="247.0" promptText="Enter your Password">
+      <PasswordField fx:id="text_form" layoutX="155.0" layoutY="216.0" prefHeight="32.0" prefWidth="247.0" promptText="Enter your Password" styleClass="text_form" stylesheets="@../css/style.css">
          <font>
             <Font size="16.0" />
          </font>
       </PasswordField>
-      <Button fx:id="btl" layoutX="187.0" layoutY="411.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="428.0" text="Login">
+      <Button fx:id="btl1" layoutX="78.0" layoutY="530.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="28.0" prefWidth="400.0" styleClass="btl" stylesheets="@../css/style.css" text="Login">
          <font>
             <Font name="Segoe UI Semibold" size="16.0" />
          </font>
       </Button>
-      <CheckBox layoutX="278.0" layoutY="260.0" mnemonicParsing="false" text="Remember Me!" textFill="#2eb872">
+      <CheckBox layoutX="156.0" layoutY="292.0" mnemonicParsing="false" text="Remember Me!" textFill="#2eb872">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
       </CheckBox>
-      <Text fx:id="loginTitle" fill="#7481cf" layoutX="14.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naulum" wrappingWidth="152.0">
+      <Text fx:id="nav_title" fill="#7481cf" layoutX="14.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nav_title" text="Naulum" wrappingWidth="203.0">
          <font>
-            <Font name="Microsoft YaHei Bold" size="32.0" />
+            <Font name="Microsoft YaHei Bold" size="48.0" />
          </font>
       </Text>
-      <Text fill="#2eb872" layoutX="277.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
-         <font>
-            <Font name="Segoe UI Semibold" size="14.0" />
-         </font>
-      </Text>
-      <Text fill="#2eb872" layoutX="277.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+      <Text fill="#2eb872" layoutX="155.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
       </Text>
-      <ImageView fx:id="ebike" fitHeight="81.0" fitWidth="85.0" layoutX="236.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+      <Text fill="#2eb872" layoutX="157.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="ebikeFrame" fitHeight="81.0" fitWidth="85.0" layoutX="104.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../png/ebike.png" />
+            <Image url="@../png/ebikeFrame.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="42.0" fitWidth="33.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="44.0" fitWidth="41.0" layoutX="212.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../png/energy.png" />
          </image>

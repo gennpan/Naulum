@@ -1,12 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="678.0" stylesheets="/com/naulum/fxgui/css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.controllers.SignUpController">
+<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" styleClass="anchor_pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.controllers.SignUpController">
    <children>
-      <Text fx:id="navTitle" layoutX="250.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naulum - Sign Up" wrappingWidth="100.00390625" />
-      <Button fx:id="btl" layoutX="31.0" layoutY="18.0" mnemonicParsing="false" onAction="#switchToLogin" text="Login" />
+      <Button fx:id="btl" layoutX="30.0" layoutY="25.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="50.0" prefWidth="80.0" styleClass="btl" stylesheets="@../css/style.css" text="Login">
+         <font>
+            <Font name="Segoe UI Semibold" size="16.0" />
+         </font></Button>
+      <Text fx:id="nav_title" fill="#7481cf" layoutX="203.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nav_title" text="Naulum-SignUp" wrappingWidth="395.0">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="48.0" />
+         </font>
+      </Text>
+      <TextField fx:id="text_form" layoutX="55.0" layoutY="496.0" prefHeight="11.0" prefWidth="247.0" promptText="Enter your E-mail" styleClass="text_form" stylesheets="@../css/style.css">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="text_form" layoutX="54.0" layoutY="556.0" prefHeight="32.0" prefWidth="247.0" promptText="Enter your Password" styleClass="text_form" stylesheets="@../css/style.css">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <Text fill="#2eb872" layoutX="55.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="text_form" layoutX="54.0" layoutY="623.0" prefHeight="32.0" prefWidth="247.0" promptText="Enter your Password" styleClass="text_form" stylesheets="@../css/style.css">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <Text fill="#2eb872" layoutX="55.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Repeat Your Password To Confirm:">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#2eb872" layoutX="55.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="text_form" layoutX="55.0" layoutY="215.0" prefHeight="11.0" prefWidth="247.0" promptText="Enter your Name" styleClass="text_form" stylesheets="@../css/style.css">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Text fill="#2eb872" layoutX="56.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="text_form" layoutX="55.0" layoutY="275.0" prefHeight="11.0" prefWidth="247.0" promptText="Enter your Surname" styleClass="text_form" stylesheets="@../css/style.css">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Text fill="#2eb872" layoutX="57.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname:">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="date_form" layoutX="53.0" layoutY="344.0" prefHeight="25.0" prefWidth="247.0" promptText="dd/mm/yyyy" styleClass="date_form" stylesheets="@../css/style.css" />
+      <Text fill="#2eb872" layoutX="55.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BirthDate:">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="loginTitle1" fill="#7481cf" layoutX="55.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Data" wrappingWidth="247.0">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="loginTitle11" fill="#7481cf" layoutX="55.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Data" wrappingWidth="247.0">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="btl" layoutX="124.0" layoutY="819.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="553.0" styleClass="btl" stylesheets="@../css/style.css" text="SignUp">
+         <font>
+            <Font name="Segoe UI Semibold" size="16.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

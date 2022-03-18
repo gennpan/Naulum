@@ -1,26 +1,48 @@
 
 /*Button Sign Up Style*/
-#btl:hover{
-    -fx-background-color: #7481cf;
+.btl:hover{
+  -fx-background-color: #7481cf;
 }
-#btl:active{
-    -fx-background-color: green;
+.btl:active{
+  -fx-background-color: green;
 }
 
-#btl{
+.btl{
+  -fx-background-color: #2eb872;
+  -fx-text-fill: #c1f880;    
+}
+
+
+.btl_side_menu{
 	-fx-background-color: #2eb872;
-	-fx-text-fill: #c1f880;    
+    -fx-text-fill: #c1f880;  
+    -fx-background-radius: 25.0; 
 }
-
-#anchor_pane{
+.btl_side_menu:active{
 	 -fx-background-color: #c1f880;
+	 -fx-text-fill: #2eb872;  
+	 
+}
+.btl_side_menu:hover{
+	 -fx-background-color: #c1f880;
+	 -fx-text-fill: #2eb872	;   
 }
 
 
 
 
-#textForm{
-	
+.anchor_pane{
+  -fx-background-color: #c1f880;
+}
+
+
+.text_form{
+  -fx-text-fill: orange;
+  -fx-background-color: #a3de83;
+  -fx-prompt-text-fill: #c1f880;
+}
+
+.date_form{
   -fx-text-fill: orange;
   -fx-background-color: #a3de83;
   -fx-prompt-text-fill: #c1f880;
@@ -28,6 +50,21 @@
 
 
 
-#navTitle{
+.nav_title{
 	-fx-text-fill: #7481cf;
 }
+
+
+.vbox_user{
+	-fx-background-color: #55c59d;
+	
+}
+
+.shadow{
+	-fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.1), 10.0, 0.0, 0.0, 10.0);
+}
+
+.menu-title{
+	-fx-text-fill: white;
+}
+
