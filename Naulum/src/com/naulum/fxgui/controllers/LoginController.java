@@ -52,6 +52,7 @@ public class LoginController implements Initializable {
 	
 		
 		public void switchToSignUp(ActionEvent event) throws IOException{
+			System.out.println("You have Clicked SignUp");
 			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/Sign_up.fxml"));
 			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 			scene = new Scene(root);
@@ -60,6 +61,7 @@ public class LoginController implements Initializable {
 		}
 
 	    public void switchToHome(ActionEvent event) throws IOException {
+	    	System.out.println("You have Clicked Login");
 			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/UserHome.fxml"));
 			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 			scene = new Scene(root);

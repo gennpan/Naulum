@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Spinner layoutX="291.0" layoutY="193.0" prefHeight="31.0" prefWidth="218.0" styleClass="text_form" stylesheets="@../css/style.css" />
+      <Label layoutX="379.0" layoutY="176.0" stylesheets="@../css/style.css" text="Amount" />
+      <ChoiceBox layoutX="291.0" layoutY="335.0" prefHeight="31.0" prefWidth="218.0" styleClass="text_form" stylesheets="@../css/style.css" />
+   </children>
+</AnchorPane>

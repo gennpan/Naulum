@@ -35,7 +35,7 @@ public class HandlerMenuController implements Initializable{
 	
 	@FXML
 	private void handleButtonWallet(ActionEvent event) {
-		System.out.println("You have Clicked Credit");
+		System.out.println("You have Clicked Wallet");
 		LoaderMenuController object = new LoaderMenuController();
 		Pane view = object.getPage("Wallet");
 		main_pane.setCenter(view);
@@ -44,7 +44,7 @@ public class HandlerMenuController implements Initializable{
 	
 	@FXML
 	private void handleButtonSub(ActionEvent event) {
-		System.out.println("You have Clicked Credit");
+		System.out.println("You have Clicked Subs");
 		LoaderMenuController object = new LoaderMenuController();
 		Pane view = object.getPage("Subscription");
 		main_pane.setCenter(view);
@@ -53,7 +53,7 @@ public class HandlerMenuController implements Initializable{
 	
 	@FXML
 	private void handleButtonSH(ActionEvent event) {
-		System.out.println("You have Clicked Credit");
+		System.out.println("You have Clicked Scooter-History");
 		LoaderMenuController object = new LoaderMenuController();
 		Pane view = object.getPage("ScooterHistory");
 		main_pane.setCenter(view);
@@ -62,7 +62,7 @@ public class HandlerMenuController implements Initializable{
 	
 	@FXML
 	private void handleButtonAccount(ActionEvent event) {
-		System.out.println("You have Clicked Credit");
+		System.out.println("You have Clicked Account");
 		LoaderMenuController object = new LoaderMenuController();
 		Pane view = object.getPage("Account");
 		main_pane.setCenter(view);
@@ -70,12 +70,25 @@ public class HandlerMenuController implements Initializable{
 	
 	
 	 public void handleButtonLogout(ActionEvent event) throws IOException {
+		 System.out.println("You have Clicked Logout");
 			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/Login.fxml"));
 			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 			scene = new Scene(root);
 			stage.setScene(scene);
 			stage.show();
 	}
+	 
+	 
+	 //Controllare se è il modo giusto 
+	 public void ButtonAddCredit(ActionEvent event) throws IOException {
+		 	System.out.println("You have Clicked AddCredit");
+			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/AddCredit.fxml"));
+			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+			scene = new Scene(root);
+			stage.setScene(scene);
+			stage.show();
+	}
+	
 	
 	
 	@Override

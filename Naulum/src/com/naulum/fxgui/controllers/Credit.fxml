@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.controllers.HandlerMenuController">
    <children>
-      <Text layoutX="238.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test">
+      <Text layoutX="257.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test">
          <font>
             <Font size="48.0" />
          </font>
       </Text>
+      <Circle blendMode="COLOR_BURN" fill="#4c21ff" layoutX="300.0" layoutY="300.0" radius="186.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle blendMode="DARKEN" fill="DODGERBLUE" layoutX="300.0" layoutY="300.0" radius="123.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="153.0" layoutY="537.0" mnemonicParsing="false" onAction="#ButtonAddCredit" prefHeight="39.0" prefWidth="294.0" styleClass="btl" stylesheets="@../css/style.css" text="Add Credit" />
    </children>
 </AnchorPane>

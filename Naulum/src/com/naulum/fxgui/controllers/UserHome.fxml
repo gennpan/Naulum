@@ -37,7 +37,7 @@
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Wallet">
+                  <Button mnemonicParsing="false" onAction="#handleButtonWallet" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Wallet">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>
@@ -45,7 +45,7 @@
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Subscription">
+                  <Button mnemonicParsing="false" onAction="#handleButtonSub" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Subscription">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>
@@ -53,7 +53,7 @@
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Scooter-History">
+                  <Button mnemonicParsing="false" onAction="#handleButtonSH" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Scooter-History">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>
@@ -61,7 +61,7 @@
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Account">
+                  <Button mnemonicParsing="false" onAction="#handleButtonAccount" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Account">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>

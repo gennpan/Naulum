@@ -30,6 +30,7 @@ public class SignUpController implements Initializable {
 		//possibili animation qui
 	}
 	        public void switchToLogin(ActionEvent event) throws IOException {
+	        System.out.println("You have Clicked Return To Login");
 			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/Login.fxml"));
 			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 			scene = new Scene(root);
