@@ -28,6 +28,23 @@
 	 -fx-text-fill: #2eb872	;   
 }
 
+.card{
+	-fx-background-color: #2eb872;
+    -fx-text-fill: #c1f880;  
+    -fx-background-radius: 25.0; 
+}
+
+.card_label{
+	 -fx-text-fill: FFFF;
+}
+
+
+.btl_card{
+	-fx-background-color: #7481cf;
+    -fx-text-fill: #c1f880;  
+    -fx-background-radius: 25.0;
+}
+
 
 
 
@@ -68,3 +85,6 @@
 	-fx-text-fill: white;
 }
 
+.generic_label{
+	-fx-text-fill: #2eb872;
+}

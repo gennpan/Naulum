@@ -1,3 +1,11 @@
+
+//Inserire la funzione per aggiungere il credito e scegliere le carte tra quelle inserite in wallet.
+//Controllare il pulsante Credit in add Credit, non sembra tornare indietro, da errore.
+
+
+
+
+
 package com.naulum.fxgui.controllers;
 
 import java.io.IOException;
@@ -23,6 +31,17 @@ public class HandlerMenuController implements Initializable{
 	@FXML
 	private Scene scene;
 
+	
+	@FXML
+	private void handleButtonRent(ActionEvent event) {
+		System.out.println("You have Clicked Rent");
+		LoaderMenuController object = new LoaderMenuController();
+		Pane view = object.getPage("Rent");
+		main_pane.setCenter(view);
+	}
+	
+	
+	
 	
 	@FXML
 	private void handleButtonCredit(ActionEvent event) {
@@ -89,7 +108,19 @@ public class HandlerMenuController implements Initializable{
 			stage.show();
 	}
 	
-	
+	 public void ButtonAddCard(ActionEvent event) throws IOException {
+		 	System.out.println("You have Clicked AddCard");
+			Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/AddCard.fxml"));
+			stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+			scene = new Scene(root);
+			stage.setScene(scene);
+			stage.show();
+	}
+	 
+	 
+	 
+	 
+	 
 	
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {	

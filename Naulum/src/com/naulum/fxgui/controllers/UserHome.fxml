@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="772.0" prefWidth="1331.0" styleClass="anchor_pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.controllers.HandlerMenuController">
+<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" styleClass="anchor_pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.naulum.fxgui.controllers.HandlerMenuController">
    <children>
-      <BorderPane fx:id="main_pane" layoutX="-6.0" prefHeight="772.0" prefWidth="1340.0">
+      <BorderPane fx:id="main_pane" prefHeight="800.0" prefWidth="1300.0">
          <left>
-            <VBox fx:id="vbox_user" prefHeight="628.0" prefWidth="196.0" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
+            <VBox fx:id="vbox_user" prefHeight="759.0" prefWidth="204.0" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
                <styleClass>
                   <String fx:value="vbox_user" />
                   <String fx:value="shadow" />
@@ -29,6 +29,14 @@
                         </Label>
                      </children>
                   </Pane>
+                  <Button mnemonicParsing="false" onAction="#handleButtonRent" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Rent">
+                     <font>
+                        <Font name="Segoe UI Semibold" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
                   <Button mnemonicParsing="false" onAction="#handleButtonCredit" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Credit">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />

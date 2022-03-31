@@ -29,7 +29,7 @@
             <Font size="16.0" />
          </font>
       </PasswordField>
-      <Text fill="#2eb872" layoutX="55.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+      <Text fill="#2eb872" layoutX="55.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Password:">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
@@ -39,12 +39,12 @@
             <Font size="16.0" />
          </font>
       </PasswordField>
-      <Text fill="#2eb872" layoutX="55.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Repeat Your Password To Confirm:">
+      <Text fill="#2eb872" layoutX="55.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Repeat Your Password To Confirm:">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
       </Text>
-      <Text fill="#2eb872" layoutX="55.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail:">
+      <Text fill="#2eb872" layoutX="55.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="E-mail:">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
@@ -54,7 +54,7 @@
             <Font size="16.0" />
          </font>
       </TextField>
-      <Text fill="#2eb872" layoutX="56.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+      <Text fill="#2eb872" layoutX="56.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Name:">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
@@ -64,13 +64,13 @@
             <Font size="16.0" />
          </font>
       </TextField>
-      <Text fill="#2eb872" layoutX="57.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname:">
+      <Text fill="#2eb872" layoutX="57.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Surname:">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
       </Text>
       <DatePicker fx:id="date_form" layoutX="53.0" layoutY="344.0" prefHeight="25.0" prefWidth="247.0" promptText="dd/mm/yyyy" styleClass="date_form" stylesheets="@../css/style.css" />
-      <Text fill="#2eb872" layoutX="55.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BirthDate:">
+      <Text fill="#2eb872" layoutX="55.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="BirthDate:">
          <font>
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
