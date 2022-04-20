@@ -22,22 +22,14 @@
                <children>
                   <Pane prefHeight="62.0" prefWidth="196.0">
                      <children>
-                        <Label layoutX="23.0" layoutY="15.0" prefHeight="42.0" prefWidth="152.0" styleClass="menu-title" stylesheets="@../css/style.css" text="Naulum Menù">
+                        <Label layoutX="7.0" layoutY="15.0" prefHeight="42.0" prefWidth="187.0" styleClass="menu-title" stylesheets="@../css/style.css" text="Naulum Employee">
                            <font>
                               <Font name="Microsoft YaHei Bold" size="20.0" />
                            </font>
                         </Label>
                      </children>
                   </Pane>
-                  <Button mnemonicParsing="false" onAction="#handleButtonRent" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Rent">
-                     <font>
-                        <Font name="Segoe UI Semibold" size="16.0" />
-                     </font>
-                     <VBox.margin>
-                        <Insets left="10.0" top="10.0" />
-                     </VBox.margin>
-                  </Button>
-                  <Button mnemonicParsing="false" onAction="#handleButtonCredit" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Credit">
+                  <Button mnemonicParsing="false" onAction="#handleButtonAddeBike" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Add - eBike">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>
@@ -45,7 +37,7 @@
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#handleButtonWallet" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Wallet">
+                  <Button mnemonicParsing="false" onAction="#handleButtonRemoveeBike" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Remove - eBike">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>
@@ -53,7 +45,7 @@
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#handleButtonSH" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Scooter-History">
+                  <Button mnemonicParsing="false" onAction="#handleButtonClientSh" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Client SH">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>
@@ -61,13 +53,21 @@
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#handleButtonAccount" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Account">
+                  <Button mnemonicParsing="false" onAction="#handleButtonClientAnagInformation" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Client Information">
                      <VBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </VBox.margin>
                      <font>
                         <Font name="Segoe UI Semibold" size="16.0" />
                      </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#handleButtonMyAccount" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="My Account">
+                     <font>
+                        <Font name="Segoe UI Semibold" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
                   </Button>
                   <Button mnemonicParsing="false" onAction="#handleButtonLogout" prefHeight="84.0" prefWidth="177.0" styleClass="btl_side_menu" stylesheets="@../css/style.css" text="Logout">
                      <VBox.margin>

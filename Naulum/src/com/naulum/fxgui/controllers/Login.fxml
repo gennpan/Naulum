@@ -65,6 +65,11 @@
             <Image url="@../png/energy.png" />
          </image>
       </ImageView>
+      <Button fx:id="btl11" layoutX="78.0" layoutY="484.0" mnemonicParsing="false" onAction="#switchToHome2" prefHeight="28.0" prefWidth="400.0" styleClass="btl" stylesheets="@../css/style.css" text="Login">
+         <font>
+            <Font name="Segoe UI Semibold" size="16.0" />
+         </font>
+      </Button>
    </children>
    <rotationAxis>
       <Point3D y="-1.0" z="1.0" />

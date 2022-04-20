@@ -68,8 +68,18 @@ public class LoginController implements Initializable {
 			stage.setScene(scene);
 			stage.show();
 	}
-}
 
+
+//test
+public void switchToHome2(ActionEvent event) throws IOException {
+	System.out.println("You have Clicked Login");
+	Parent root = FXMLLoader.load(getClass().getResource("/com/naulum/fxgui/controllers/EmployeeHome.fxml"));
+	stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+	scene = new Scene(root);
+	stage.setScene(scene);
+	stage.show();
+}
+}
 
 
 

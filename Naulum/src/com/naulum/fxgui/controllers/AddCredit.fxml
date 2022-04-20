@@ -16,7 +16,7 @@
             <Font name="Segoe UI Semibold" size="14.0" />
          </font></Label>
       <ChoiceBox layoutX="291.0" layoutY="335.0" prefHeight="31.0" prefWidth="218.0" styleClass="text_form" stylesheets="@../css/style.css" />
-      <Button fx:id="btl" layoutX="25.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="31.0" prefWidth="76.0" styleClass="btl" stylesheets="@../css/style.css" text="Credit">
+      <Button fx:id="btl" layoutX="25.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="31.0" prefWidth="76.0" styleClass="btl" stylesheets="@../css/style.css" text="Home">
          <font>
             <Font name="Segoe UI Semibold" size="16.0" />
          </font>
@@ -31,7 +31,7 @@
             <Font name="Segoe UI Semibold" size="14.0" />
          </font>
       </Label>
-      <Text fx:id="nav_title" fill="#7481cf" layoutX="203.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nav_title" text="Naulum-Credit" wrappingWidth="395.0">
+      <Text fx:id="nav_title" fill="#7481cf" layoutX="203.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nav_title" text="Naulum Credit" wrappingWidth="395.0">
          <font>
             <Font name="Microsoft YaHei Bold" size="48.0" />
          </font>
